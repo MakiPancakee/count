@@ -62,6 +62,7 @@ langs = ids_langid.apply(lambda tuple: tuple[0])
 print("Percent of data in French (estimated):")
 print((sum(langs=="fr")/len(langs))*100)
 
+df_final['language'] = df_final['to_translate'].apply(detect)
 for index, row in df_final['to_translate'].iteritems():
     lang = detect(row) #detecting each row
     df.loc[index, 'language'] = lang

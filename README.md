@@ -6,7 +6,7 @@ For now, you have to possess your JSON files in a folder on your computer
 ##########################################################################
 
 count.py concern only one file
-multiple_count.py shows a way of counting words from multiple files
+<br>multiple_count.py shows a way of counting words from multiple files
 
 ##########################################################################
 
